@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var number = parseInt(window.prompt("Enter a number between 1 and 7 : "));
+        var day;
+        switch (number)
+        {
+            case 1 : day="Monday"; break;
+            case 2 :day="Tuesday"; break;
+            case 3 :day="Wednesday"; break;
+            case 4 : day="Thursday"; break;
+            case 5 : day="Friday"; break;
+            case 6 : day="Saturday"; break;
+            case 7 : day="Sunday"; break;
+            default : day="Invalid Input";
+        }
+        document.write(day);
+        
+    </script>
+</body>
+</html>

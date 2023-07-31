@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Change Table Border</title>
+    <style>
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Click the button to change the table border:</h2>
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 2</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button onclick="changeTableBorder()">Change Border</button>
+
+    <script>
+        function changeTableBorder() {
+            const table = document.getElementById("myTable");
+            table.style.border = "4px dashed blue";
+        }
+    </script>
+</body>
+
+</html>

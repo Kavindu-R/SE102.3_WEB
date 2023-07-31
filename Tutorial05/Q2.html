@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+
+.box {
+    background-color: rgba(223, 206, 206, 0.6);
+    width: calc(50%);
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-p {
+    width: 100%;
+    text-align: end;
+}
+
+.container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0px;
+}
+
+.sec-up {
+    padding: 5px 5px;
+    background-color: orange;
+    text-align: center;
+    width: 534px;
+    color: rgb(254, 254, 254);
+}
+
+.row {
+    display: flex;
+}
+
+td,
+th {
+    background-color: rgb(184, 171, 171);
+    width: 250px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+</style>
+<body>
+
+    <section class="container">
+        <form action="">
+            <div class="sec-up">
+                <h3>Sign Up</h3>
+            </div>
+            <table>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Last name</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>DOB</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" id="Male">Male
+                        <input type="radio" id="Female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="checkbox">I agree to the conditions and terms</td>
+                </tr>
+            </table>
+            <div class="sec-up">
+                <div style="width: 25%; justify-content:end; display: flex; flex-direction: column;">
+                    <input style="background-color: green; color: white; padding: 5px 10px; border: 0; margin: 5px;"
+                        type="submit" value="Submit">
+                    <input style="background-color: red; color: white; padding: 5px 10px; border: 0; margin: 5px;"
+                        type="reset" value="Cancel">
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

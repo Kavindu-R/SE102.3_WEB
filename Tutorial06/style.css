@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+.products {
+    padding: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    margin: 10px;
+}
+
+.product-sec {
+    margin-top: 20px;
+}

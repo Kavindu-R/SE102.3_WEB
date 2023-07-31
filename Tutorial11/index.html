@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h2 style="text-align:center;">Registration Form</h2>
+    <center><section class="container">
+        <form method="post" action="index.php">
+            <table>
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" name="first_name"></td>
+                </tr>
+                <tr>
+                    <td>Last Name:</td>
+                    <td><input type="text" name="last_name"></td>
+                </tr>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" name="username"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" value="male"> Male
+                        <input type="radio" name="gender" value="female"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Academic Year:</td>
+                    <td>
+                        <select name="academic_year">
+                            <option value="first">First Year</option>
+                            <option value="second">Second Year</option>
+                            <option value="third">Third Year</option>
+                            <option value="fourth">Fourth Year</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Phone Number:</td>
+                    <td><input type="text" name="phone_number"></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center; padding: 5px;" colspan="2"><input style="padding: 3px 20px;"
+                            type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+    </section>
+</center>
+</body>
+
+</html>
